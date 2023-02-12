@@ -1,6 +1,6 @@
 {
-  "name": "darkaonline/l5-swagger",
-  "description": "Swagger integration to Laravel 5",
+  "name": "mika-iriarte/l5-swagger",
+  "description": "Swagger integration to Laravel 8",
   "keywords": [
     "laravel",
     "swagger",
