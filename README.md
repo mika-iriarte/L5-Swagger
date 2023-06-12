@@ -1,8 +1,10 @@
 
-L5 Swagger - OpenApi or Swagger Specification for your Laravel project made easy.
-==========
+### Swagger 2.0 for Laravel 5, extended to Laravel 8-10
 
-Swagger 2.0 for Laravel 5, extended to Laravel 8-9
+____________________________
+
+L5 Swagger - OpenApi or Swagger Specification for your Laravel project made easy.
+============
 
 This package is a wrapper of [Swagger-php](https://github.com/zircote/swagger-php) and [swagger-ui](https://github.com/swagger-api/swagger-ui) adapted to work with Laravel 5.
 
@@ -11,7 +13,7 @@ Installation
 
  Laravel          | Swagger UI| OpenAPI Spec compatibility | L5-Swagger
 :-----------------|:----------|:---------------------------|:----------
- 7.x-10.x          | 3         | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
+ 7.x-10.x         | 3         | 3.0, 2.0                   | `composer require "mika-iriarte/l5-swagger"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
  6.0.x            | 3         | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:6.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
  5.8.x            | 3         | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:5.8.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
  5.7.x OR 5.6.x   | 3         | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:5.7.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!

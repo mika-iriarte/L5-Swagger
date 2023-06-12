@@ -1,6 +1,6 @@
 {
   "name": "mika-iriarte/l5-swagger",
-  "description": "Swagger integration to Laravel 6-9",
+  "description": "Legacy L5-Swagger with extended compatibility for Laravel 6-10",
   "keywords": [
     "laravel",
     "swagger",
@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": "^7.2 || ^8.0",
-    "laravel/framework": ">=6.0 <=10",
+    "laravel/framework": ">=6.0 <11",
     "zircote/swagger-php": "~2.0 || 3.*",
     "swagger-api/swagger-ui": "^3.0",
     "symfony/yaml": "^5.0"
@@ -53,5 +53,9 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "replace": {
+    "darkaonline/l5-swagger": "<=7.0.1",
+    "juanabascal/l5-swagger": "*"
+  }
 }
