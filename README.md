@@ -11,19 +11,19 @@ This package is a wrapper of [Swagger-php](https://github.com/zircote/swagger-ph
 Installation
 ============
 
- Laravel          | Swagger UI| OpenAPI Spec compatibility | L5-Swagger
-:-----------------|:----------|:---------------------------|:----------
- 7.x-10.x         | 3         | 3.0, 2.0                   | `composer require "mika-iriarte/l5-swagger"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
- 6.0.x            | 3         | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:6.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
- 5.8.x            | 3         | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:5.8.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
- 5.7.x OR 5.6.x   | 3         | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:5.7.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
- 5.6.x            | 3         | 2.0                        | `composer require "darkaonline/l5-swagger:5.6.*"`
- 5.5.x            | 3         | 2.0                        | `composer require "darkaonline/l5-swagger:5.5.*"`
- 5.4.x            | 3         | 2.0                        | `composer require "darkaonline/l5-swagger:5.4.*"`
- 5.4.x            | 2.2       | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~4.0"`
- 5.3.x            | 2.2       | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~3.0"`
- 5.2.x            | 2.2       | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~3.0"`
- 5.1.x            | 2.2       | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~3.0"`
+ Laravel          | Swagger UI | OpenAPI Spec compatibility | L5-Swagger
+:-----------------|:-----------|:---------------------------|:----------
+ 7.x-10.x         | 5          | 3.0, 2.0                   | `composer require "mika-iriarte/l5-swagger"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
+ 6.0.x            | 3          | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:6.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
+ 5.8.x            | 3          | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:5.8.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
+ 5.7.x OR 5.6.x   | 3          | 3.0, 2.0                   | `composer require "darkaonline/l5-swagger:5.7.*"`<br><br>:warning: !!! run `composer require 'zircote/swagger-php:2.*'` if you need old **@SWG (SWAGGER annotations)** support. !!!
+ 5.6.x            | 3          | 2.0                        | `composer require "darkaonline/l5-swagger:5.6.*"`
+ 5.5.x            | 3          | 2.0                        | `composer require "darkaonline/l5-swagger:5.5.*"`
+ 5.4.x            | 3          | 2.0                        | `composer require "darkaonline/l5-swagger:5.4.*"`
+ 5.4.x            | 2.2        | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~4.0"`
+ 5.3.x            | 2.2        | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~3.0"`
+ 5.2.x            | 2.2        | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~3.0"`
+ 5.1.x            | 2.2        | 1.1, 1.2, 2.0              | `composer require "darkaonline/l5-swagger:~3.0"`
 
 You can publish L5-Swagger's config and view files into your project by running:
 
